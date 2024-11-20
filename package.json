@@ -1,0 +1,12 @@
+{
+  "name": "servidorariel",
+  "version": "1.0.0",
+  "description": "Servidor publico",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "node index.js produccion",
+    "test": "node index.js test"
+  },
+  "author": "Ariel",
+  "license": "ISC"
+}
