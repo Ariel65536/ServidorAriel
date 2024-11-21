@@ -4,9 +4,14 @@
   "description": "Servidor publico",
   "main": "index.js",
   "scripts": {
-    "iniciar": "node index.js produccion",
-    "test": "node index.js test"
+    "iniciar": "node --env-file .env index.js",
+    "test": "node --env-file .env index.js test"
   },
   "author": "Ariel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
 }
