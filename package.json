@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Servidor publico",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "iniciar": "node --env-file .env index.js",
+    "prueba": "node --env-file .env prueba.js",
     "test": "node --env-file .env index.js test"
   },
   "author": "Ariel",
@@ -12,6 +14,8 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "express": "^4.21.1",
-    "pg": "^8.13.1"
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "servidorariel": "file:"
   }
 }
